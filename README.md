@@ -6,7 +6,7 @@ Tutorial SAPUI5 Create, Read, Update, Delete with SAP HANA XS & SAP HANA DB Step
 
 2. Choose on the menu Presisetnce > Database & Schemas
 
-   * Create a New HANA MDC (<trial>)
+   * Create a New HANA MDC (\<trial\>)
    * More information at [SCN Post](http://scn.sap.com/community/developer-center/cloud-platform/blog/2016/01/13/sap-hana-multitenant-database-containers-mdc-scenarios-now-on-trial-landscape)
 
 3. Click : Open in Web-based Development Workbench
