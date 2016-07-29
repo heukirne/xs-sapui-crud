@@ -1,6 +1,6 @@
 Tutorial SAPUI5 Create, Read, Update, Delete with SAP HANA XS & SAP HANA DB Step by Step
-- by: John Eswin Nizar
-- updated by: Henrique Dias
+* by: John Eswin Nizar
+* updated by: Henrique Dias
 
 1. Log On : https://account.hanatrial.ondemand.com/
 
@@ -11,10 +11,9 @@ Tutorial SAPUI5 Create, Read, Update, Delete with SAP HANA XS & SAP HANA DB Step
 
 3. Click : Open in Web-based Development Workbench
 
-4. On the page SAP HANA Web-based Development Workbench : Catalog 
-   Click drop down icon (+), choose Catalog
-
-   * Right-click on Catalog and click on New Schema: "NEO_ALIEN"
+4. On the page SAP HANA Web-based Development Workbench : **Catalog**
+  * Click drop down icon (+), choose Catalog
+  * Right-click on Catalog and click on New Schema: "NEO_ALIEN"
 
 5. Click icon SQL or Right-click on Catalog and click on Open SQL Console
   
@@ -28,14 +27,13 @@ Tutorial SAPUI5 Create, Read, Update, Delete with SAP HANA XS & SAP HANA DB Step
  INSERT INTO "NEO_ALIEN"."PERSONAL" VALUES( 'dirk.brian@example.com', 'Dirk', 'Brian', '49', 'Exeter, England');
  ```
 
-8. Back to page SAP HANA Web-based Development Workbench : Editor
-   - Click Content -> public
-   - Right click : Choose New > Package
-      - Package Name : contacts  
-   - Right click contacts: Choose Create Aplication
-      - Template: Empty application (with XSAccess and XSApp)
-      - Package: public.contacts
-
+8. Back to page SAP HANA Web-based Development Workbench : **Editor**
+   * Click Content -> public
+   * Right click : Choose New > Package
+      * Package Name : contacts  
+   * Right click contacts: Choose Create Aplication
+      * Template: Empty application (with XSAccess and XSApp)
+      * Package: public.contacts
    * Download this repo zip
    * Right click contacts: Choose Import > Archive
 
