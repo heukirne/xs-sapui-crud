@@ -13,5 +13,5 @@ var rs = pstmt.executeQuery();
 
 /*
 Test :
-https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/Contacts/deletedata.xsjs?email=jenizar@hotmail.com
+./contacts/deletedata.xsjs?email=jenizar@hotmail.com
 */

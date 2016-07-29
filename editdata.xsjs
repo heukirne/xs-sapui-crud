@@ -20,5 +20,5 @@ $.response.contentType = 'text/plain';
     
 /*
 Test:
-https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/Contacts/editdata.xsjs?email=jenizar@example.com&firstname=john&lastname=eswin&age=41&address=Jakarta        
+./contacts/editdata.xsjs?email=jenizar@example.com&firstname=john&lastname=eswin&age=41&address=Jakarta        
 */

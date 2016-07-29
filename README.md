@@ -36,6 +36,7 @@ updated by: Henrique Dias
 8.2 Right click contacts: Choose Import > Archive
 
 9. Test it
+9.1 Click on menu.html and Click on Play (green button at the tool bar)
 
 10. Enjoy!
 
