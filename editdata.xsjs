@@ -5,7 +5,7 @@ var address = $.request.parameters.get('ADDRESS');
 var email = $.request.parameters.get('EMAIL');
 
 var conn = $.db.getConnection();  
-var pstmt = conn.prepareStatement( "update NEO_0K1ZGG9JLRXD8WF0JOAXBWJG4.PERSONAL set FIRSTNAME=?, LASTNAME=?, AGE=?, ADDRESS=? where EMAIL=?" );
+ var pstmt = conn.prepareStatement( "update NEO_ALIEN.PERSONAL set FIRSTNAME=?, LASTNAME=?, AGE=?, ADDRESS=? where EMAIL=?" );
 //pstmt.setString(1,email);  
 pstmt.setString(1,firstname);  
 pstmt.setString(2,lastname); 

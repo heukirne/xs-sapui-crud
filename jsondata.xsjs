@@ -1,5 +1,5 @@
 var select_all_personals_query =  
-                    "select * from NEO_0K1ZGG9JLRXD8WF0JOAXBWJG4.PERSONAL";  
+                    "select * from NEO_ALIEN.PERSONAL";  
 function close(closables) {  
           var closable;  
           var i;  

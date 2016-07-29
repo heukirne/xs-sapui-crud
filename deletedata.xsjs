@@ -1,7 +1,7 @@
 var email = $.request.parameters.get('EMAIL');
 
 var conn = $.db.getConnection();  
-var pstmt = conn.prepareStatement( "delete from NEO_0K1ZGG9JLRXD8WF0JOAXBWJG4.PERSONAL where EMAIL=?" );
+var pstmt = conn.prepareStatement( "delete from NEO_ALIEN.PERSONAL where EMAIL=?" );
 //pstmt.setString(1,email);  
 pstmt.setString(1,email);
 pstmt.execute();  

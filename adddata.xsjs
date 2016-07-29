@@ -5,7 +5,7 @@ var age = $.request.parameters.get('AGE');
 var address = $.request.parameters.get('ADDRESS');
 
 var conn = $.db.getConnection();  
-var pstmt = conn.prepareStatement( "INSERT INTO NEO_0K1ZGG9JLRXD8WF0JOAXBWJG4.PERSONAL VALUES(?,?,?,?,?)" );
+var pstmt = conn.prepareStatement( "INSERT INTO NEO_ALIEN.PERSONAL VALUES(?,?,?,?,?)" );
 pstmt.setString(1,email);  
 pstmt.setString(2,firstname);  
 pstmt.setString(3,lastname); 
