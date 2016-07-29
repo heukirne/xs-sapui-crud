@@ -1,6 +1,6 @@
 Tutorial SAPUI5 Create, Read, Update, Delete with SAP HANA XS & SAP HANA DB Step by Step
-by: John Eswin Nizar
-updated by: Henrique Dias
+- by: John Eswin Nizar
+- updated by: Henrique Dias
 
 1. Log On : https://account.hanatrial.ondemand.com/
 
