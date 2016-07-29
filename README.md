@@ -19,10 +19,14 @@ Tutorial SAPUI5 Create, Read, Update, Delete with SAP HANA XS & SAP HANA DB Step
 5. Click icon SQL or Right-click on Catalog and click on Open SQL Console
   
 6. On the tab untitled0.sql, paste script below:
-   CREATE COLUMN TABLE "NEO_ALIEN"."PERSONAL" ("EMAIL" NVARCHAR(30), "FIRSTNAME" NVARCHAR(30), "LASTNAME" NVARCHAR(30), "AGE" NVARCHAR(3), "ADDRESS" NVARCHAR(50))
+  ```
+  CREATE COLUMN TABLE "NEO_ALIEN"."PERSONAL" ("EMAIL" NVARCHAR(30), "FIRSTNAME" NVARCHAR(30), "LASTNAME" NVARCHAR(30), "AGE" NVARCHAR(3), "ADDRESS" NVARCHAR(50))
+  ```
 
-7. Fill the data into PERSONAL table, paste script below :
+7. Fill the data into PERSONAL table, paste script below:
+ ```
  INSERT INTO "NEO_ALIEN"."PERSONAL" VALUES( 'dirk.brian@example.com', 'Dirk', 'Brian', '49', 'Exeter, England');
+ ```
 
 8. Back to page SAP HANA Web-based Development Workbench : Editor
    - Click Content -> public
