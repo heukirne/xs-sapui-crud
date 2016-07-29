@@ -43,4 +43,9 @@ Tutorial SAPUI5 Create, Read, Update, Delete with SAP HANA XS & SAP HANA DB Step
 
 10. Enjoy!
 
+11. REST API Test: https://resttesttest.com/
+  - endpoint: https://{my_trial_url}.hanatrial.ondemand.com/public/contacts/jsondata.xsjs
+  - user: SYSTEM
+  - password: {system_password_here}
+
 Reference: [SAP HANA Web Workbench Dev Guide](http://help.sap.com/hana/SAP_HANA_Developer_Guide_for_SAP_HANA_Web_Workbench_en.pdf)
