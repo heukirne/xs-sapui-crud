@@ -6,15 +6,15 @@ updated by: Henrique Dias
 
 2. Choose on the menu Presisetnce > Database & Schemas
 
-2.1 Create a New HANA MDC (<trial>)
-2.2 More information at [SCN Post](http://scn.sap.com/community/developer-center/cloud-platform/blog/2016/01/13/sap-hana-multitenant-database-containers-mdc-scenarios-now-on-trial-landscape)
+   * Create a New HANA MDC (<trial>)
+   * More information at [SCN Post](http://scn.sap.com/community/developer-center/cloud-platform/blog/2016/01/13/sap-hana-multitenant-database-containers-mdc-scenarios-now-on-trial-landscape)
 
 3. Click : Open in Web-based Development Workbench
 
 4. On the page SAP HANA Web-based Development Workbench : Catalog 
    Click drop down icon (+), choose Catalog
 
-4.1 Right-click on Catalog and click on New Schema: "NEO_ALIEN"
+   * Right-click on Catalog and click on New Schema: "NEO_ALIEN"
 
 5. Click icon SQL or Right-click on Catalog and click on Open SQL Console
   
@@ -25,18 +25,19 @@ updated by: Henrique Dias
  INSERT INTO "NEO_ALIEN"."PERSONAL" VALUES( 'dirk.brian@example.com', 'Dirk', 'Brian', '49', 'Exeter, England');
 
 8. Back to page SAP HANA Web-based Development Workbench : Editor
-   Click Content -> public
-   Right click : Choose New > Package
-      Package Name : contacts  
-   Right click contacts: Choose Create Aplication
-      Template: Empty application (with XSAccess and XSApp)
-      Package: public.contacts
+   - Click Content -> public
+   - Right click : Choose New > Package
+      - Package Name : contacts  
+   - Right click contacts: Choose Create Aplication
+      - Template: Empty application (with XSAccess and XSApp)
+      - Package: public.contacts
 
-8.1 Download this repo zip
-8.2 Right click contacts: Choose Import > Archive
+   * Download this repo zip
+   * Right click contacts: Choose Import > Archive
 
 9. Test it
-9.1 Click on menu.html and Click on Play (green button at the tool bar)
+   * Click on menu.html 
+   * and Click on Play (green button at the toolbar)
 
 10. Enjoy!
 
